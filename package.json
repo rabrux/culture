@@ -1,7 +1,7 @@
 {
-  "name"         : "cultureando",
-  "version"      : "0.0.1",
-  "description"  : "APP for scraping culture events from oficial culture sites.",
+  "name": "cultureando",
+  "version": "0.0.1",
+  "description": "APP for scraping culture events from oficial culture sites.",
   "author": {
     "name": "Raul Salvador Andrade",
     "email": "rsalvador@wat.mx"
@@ -14,10 +14,14 @@
     "app"
   ],
   "license": "MIT",
-  "dependencies" : {
-    "express"    : "latest",
-    "request"    : "latest",
-    "cheerio"    : "latest"
+  "dependencies": {
+    "cheerio": "latest",
+    "express": "latest",
+    "moment-timezone": "^0.5.4",
+    "request": "latest"
+  },
+  "scripts": {
+    "start": "coffee src/cultureando.coffee"
   },
   "repository": {
     "type": "git",
