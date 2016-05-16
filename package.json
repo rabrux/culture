@@ -1,0 +1,32 @@
+{
+  "name"         : "cultureando",
+  "version"      : "0.0.1",
+  "description"  : "APP for scraping culture events from oficial culture sites.",
+  "author": {
+    "name": "Raul Salvador Andrade",
+    "email": "rsalvador@wat.mx"
+  },
+  "homepage": "https://github.com/rabrux/culture",
+  "keywords": [
+    "api",
+    "culture",
+    "rest",
+    "app"
+  ],
+  "license": "MIT",
+  "dependencies" : {
+    "express"    : "latest",
+    "request"    : "latest",
+    "cheerio"    : "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rabrux/culture.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rabrux/culture/issues"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.7.0"
+  }
+}
